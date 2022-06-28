@@ -1,0 +1,25 @@
+{
+    "id": "2f768a83-160e-42e3-9e9a-b4591b75c910",
+    "name": "Get User Queues Data Action Module",
+    "description": "A Terraform/CX as Code remote module for the following Genesys Cloud public API operation: Get User Queues",
+    "origin": "genesys",
+    "type": "module",
+    "classification": "Routing",
+    "tags": [
+        "Routing",
+        "Users"
+    ],
+    "permissions": [
+        "routing:queue:view",
+        "routing:queue:join",
+        "routing:queueMember:manage"
+    ],    
+    "documentation": [],
+    "presentation": [
+        {
+            "title": "Page 1",
+            "description": "Please enter the fields below",
+            "fields": ["action_name", "action_category", "integration_id"]
+        }
+    ]
+}
